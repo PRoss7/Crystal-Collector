@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+	<meta charset="UTF-8">
+	<title>Crystal Collector Game</title>
+
+	<!--Font links-->
+  	<link href="https://fonts.googleapis.com/css?family=Sedgwick+Ave+Display" rel="stylesheet">
+  	<link href="https://fonts.googleapis.com/css?family=Bangers" rel="stylesheet">
+
+
+	<!--jQuery link-->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+	<!--Bootstrap link-->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	
+	<!--style.css and reset.css links-->
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+  	
+
+</head>
+<body>
+
+<script src="assets/javascript/game.js"></script>
+
+
+<div class="container">
+	
+	<h1>Clout Collector!!</h1>
+
+	<div id="section">
+
+		<p>You will be given a random number goal at the start of the game.</p>
+
+		<p>There are four chains below. By clicking on a chain, you will add a specific amount of points to your total clout.</p>
+
+		<p>You win the game by matching your total clout to the random number goal, you lose the game if your total clout goes above the random number goal.</p>
+
+		<p>The value of each chain is hidden from you until you click on it.</p>
+
+		<p>Each time the game starts, it will change the values of each chain.</p>
+
+	</div>
+	
+	<div class="row">
+		<div class="col-xs-6">
+
+			<div id="randomNumber"></div>
+
+		</div>
+
+		<div class="col-xs-6">
+
+			<div id="winsLosses">
+				<h3>Wins: <span id="wins"></span></h3>
+				<h3>Losses: <span id="losses"></span></h3>
+			</div>
+
+		</div>
+		
+	</div>
+	
+	<div class="row">
+		
+			<div class="images">
+
+			<div class="col-xs-3">
+				<img src="assets/images/diamond-1.jpg" class="img-1" id="randomOne" alt="Crystal 1">
+			</div>
+			
+			<div class="col-xs-3">
+				<img src="assets/images/diamond-2.jpeg" class="img-2" id="randomTwo" alt="Crystal 2">
+			</div>
+			
+			<div class="col-xs-3">	
+				<img src="assets/images/diamond-3.jpg" class="img-3" id="randomThree" alt="Crystal 3">
+			</div>
+			
+			<div class="col-xs-3">	
+				<img src="assets/images/diamond-4.jpg" class="img-4" id="randomFour" alt="Crystal 4">
+			</div>
+
+			</div>
+		
+		</div>	
+
+	</div>
+
+		<h3 id="yourScoreIs">Your total score is:</h3>
+
+		<div id="scoreCounter">
+			<div id="gameOver" style="display: none">GAME OVER</div>
+			<div id="youWin" style="display: none">YOU WIN!!!</div>
+		</div>
+
+</div>
+
+</body>
+</html>

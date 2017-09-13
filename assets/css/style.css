@@ -1,0 +1,120 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	/*background: url('../images/diamond_upholstery.png');*/
+	background: url('../images/darkness.png');
+}
+
+.container {
+	width: 100%;
+	max-width: 960px;
+	clear: both;
+	margin: 0 auto;
+}
+
+h1 {
+	font-size: 40px;
+	border: 2px groove red;
+	background: grey;
+	width: 250px;
+	padding: 15px;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 20px;
+	font-family: 'Sedgwick Ave Display', cursive;
+
+}
+
+#section {
+	border: 2px groove red;
+	background: grey;
+	width: 500px;
+	height: 400px;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+
+p {
+	padding: 10px;
+	line-height: 40px;
+	font-family: 'Bangers', cursive;
+
+}
+
+#randomNumber {
+	border: 2px groove white;
+	background: red;
+	width: 240px;
+	height: 100px;
+	margin: 0 auto;
+	margin-top: 10px;
+	margin-right: -5px;
+	font-size: 100px;
+	text-align: center;
+	font-family: 'Bangers', cursive;
+}
+
+#winsLosses {
+	border: 2px groove red;
+	background: grey;
+	width: 240px;
+	height: 100px;
+	margin: 0 auto;
+	margin-top: 10px;
+	margin-left: -5px;
+}
+
+img {
+	width: 120px;
+	height: 120px;
+	margin: 0 auto;
+	margin-top: 10px;
+	border: 3px groove red;
+}
+
+.img-1 {
+	margin-left: 210px;
+}
+
+.img-2 {
+	margin-left: 100px;
+}
+
+.img-3 {
+	margin-left: -10px;
+}
+
+.img-4 {
+	margin-left: -120px;
+}
+
+#yourScoreIs {
+	border: 2px groove red;
+	background: grey;
+	width: 200px;
+	height: 50px;
+	margin: 0 auto;
+	margin-top: 20px;
+	text-align: center;
+}
+
+h3 {
+	padding: 15px;
+	margin-left: 5px;
+	font-family: 'Bangers', cursive;
+
+}
+
+#scoreCounter {
+	border: 2px groove white;
+	background: red;
+	width: 300px;
+	height: 100px;
+	margin: 0 auto;
+	margin-top: 10px;
+	font-size: 100px;
+	text-align: center;
+	font-family: 'Bangers', cursive;
+}
