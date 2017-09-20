@@ -24,8 +24,31 @@ h1 {
 	margin: 0 auto;
 	margin-top: 20px;
 	font-family: 'Sedgwick Ave Display', cursive;
+	margin-left: 340px;
 
 }
+
+#audio {
+	overflow: auto;
+	position: fixed;
+	float: left;
+	margin-top: 20px;
+	z-index: 1;
+	margin-left: 20px;
+}
+
+
+h2 {
+	color: black;
+	font-family: 'Sedgwick Ave Display', cursive;
+	border: 1px solid red;
+	background: red;
+	padding: 5px;
+	margin: 5px 0 2px 0;
+	width: 300px;
+	text-align: center;
+}
+
 
 #section {
 	border: 2px groove red;
@@ -34,6 +57,7 @@ h1 {
 	height: 400px;
 	margin: 0 auto;
 	margin-top: 10px;
+	margin-left: 215px;
 }
 
 p {
@@ -72,22 +96,12 @@ img {
 	margin: 0 auto;
 	margin-top: 10px;
 	border: 3px groove red;
-}
-
-.img-1 {
-	margin-left: 205px;
-}
-
-.img-2 {
 	margin-left: 10px;
 }
 
-.img-3 {
-	margin-left: 10px;
-}
-
-.img-4 {
-	margin-left: 10px;
+.col-6 {
+	display: block;
+	text-align: center;
 }
 
 #yourScoreIs {
@@ -118,3 +132,4 @@ h3 {
 	text-align: center;
 	font-family: 'Bangers', cursive;
 }
+
